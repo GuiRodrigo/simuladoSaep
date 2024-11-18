@@ -1,0 +1,51 @@
+.perfil {
+  display: flex;
+  flex-direction: column;
+  max-width: 20vw;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.perfil > .button {
+  width: 100%;
+  padding: 5px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background-color: #22b14c;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid #000;
+}
+
+.perfil > .button:hover {
+  cursor: pointer;
+  background-color: #04aa36;
+}
+
+.perfil > .button:active {
+  background-color: #5dff8d;
+}
+
+.perfil > .perfilImg {
+  width: 100%;
+  border-left: 2px solid #22b14c;
+  border-right: 2px solid #22b14c;
+}
+
+.perfil > .perfilInsc {
+  color: #22b14c;
+  font-size: large;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+  align-self: flex-start;
+}
+
+.perfil > .perfilName {
+  color: #22b14c;
+  font-size: large;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 10px;
+}

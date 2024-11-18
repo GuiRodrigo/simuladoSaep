@@ -1,0 +1,32 @@
+.postagem {
+  border: 1px solid #c1c1c1;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postagem > .maria {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.postagem > .imgCurso {
+  width: 80%;
+  height: auto;
+}
+
+.postagem > .joao {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.postagem > .joao > .lucas {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
